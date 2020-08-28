@@ -127,7 +127,7 @@ We also plotted the locations of the users on a Map to profile our demographic f
 
 We scraped links to other platforms from a user's Linekdin profile and found the following distribution of linked platforms through the LinkedIn Data:
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://ashwin-19.github.io/Media%20(Blog)/LinkedInData.html" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="plots/LinkedInData.html" height="525" width="100%"></iframe>
 
 ## Syncing Google Contacts
 
@@ -177,7 +177,7 @@ Interestingly, we noticed an increased number of such tweets since lockdowns (co
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://ashwin-19.github.io/Media%20(Blog)/TweetTimeSeries.html" height="525" width="100%"></iframe>
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://ashwin-19.github.io/Media%20(Blog)/TweetTimeSeriesCF.html" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="plots/TweetTimeSeriesCF.html" height="525" width="100%"></iframe>
 
 As visible from the graph, there is an increase in the slope post the commencement of lockdown periods in countries majorly affected by COVID, denoting higher usage periods of social media in those countries due to reduced in-person interactions. We also plotted the locations of these users:
 
@@ -192,7 +192,7 @@ For Snapchat, we retrieved the snapcodes that users had shared instead of any Sn
 
 We parsed the collected replies for possible links of their accounts on these platforms. While parsing these, we also collected any URLs that the users had linked in their profile or bio to enable linking to more platforms. This process yielded the following distribution of linked platforms:
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://ashwin-19.github.io/Media%20(Blog)/TwitterReplies.html" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="plots/TwitterReplies.html" height="525" width="100%"></iframe>
 
 **The graph shows that in just five days, we were able to collect around 15,000 social network profiles for different Twitter users**. If this process of scraping tweet replies is carried out over a longer time, we expect to have link a sizable number of Twitter users to at least one other social network, if not more.
 
@@ -200,7 +200,7 @@ We parsed the collected replies for possible links of their accounts on these pl
 
 We plotted a graph with the followers and following of the users who were the ones replying to such tweets:
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://ashwin-19.github.io/Media%20(Blog)/FollowerFollowing.html" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="plots/FollowerFollowing.html" height="525" width="100%"></iframe>
 
 + Top 5% of the Users have 10.5k or more followers.
 + Top 25% of the Users have 1.5k or more followers.
@@ -216,15 +216,15 @@ We found no previous research on this platform and read online that it comprises
 
 This graph represents all the users we were able to link via Twitter replies and it gives the distribution of the number of platforms we were able to link them on:
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://ashwin-19.github.io/Media%20(Blog)/LinkabilityTwitter.html" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="plots/LinkabilityTwitter.html" height="525" width="100%"></iframe>
 
 This graph represents all the users we were able to link via their LinkedIn profiles, which were found out by using their email ids retrieved from StackOverflow and a part of GitHub data, and it gives the distribution of the number of platforms we were able to link them on:
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://ashwin-19.github.io/Media%20(Blog)/LinkabilityLinkedIn.html" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="plots/LinkabilityLinkedIn.html" height="525" width="100%"></iframe>
 
 This graph is a cumulative representation of all the users we were able to link via different source platforms, and it gives the distribution of the number of platforms we were able to link them on. We were unable to process all the GitHub data to find the LinkedIn profiles for users since the LinkedIn sales API was sunset soon after we discovered it, and hence the unprocessed GitHub data has been represented separately:
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://ashwin-19.github.io/Media%20(Blog)/Linkability.html" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="plots/Linkability.html" height="525" width="100%"></iframe>
 
 We can see that it is straightforward to link a user on two platforms, but it keeps getting tougher to link the user on more platforms.
 

@@ -1,6 +1,4 @@
-# ForgetMeNot: Exploring Accidental Linkability of Users
-
-## A case study on GitHub, StackOverflow, and Twitter
+# Exploring Accidental Linkability of Users (A case study on GitHub, StackOverflow, and Twitter)
 
 ## Our Team
 
